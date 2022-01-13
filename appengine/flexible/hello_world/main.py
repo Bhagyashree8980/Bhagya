@@ -8,8 +8,13 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return ['BHAGYASHREE - SMIT2122004',+,'\n',+, 'BHUSHAN - SMIT2122005',+,'\n',+, 'CHINMAY - SMIT2122006',+,'\n',+, 'DEMO FOR THE TOPIC GOOGLE APP ENGINE.']
+    #return ['BHAGYASHREE - SMIT2122004',+,'\n',+, 'BHUSHAN - SMIT2122005',+,'\n',+, 'CHINMAY - SMIT2122006',+,'\n',+, 'DEMO FOR THE TOPIC GOOGLE APP ENGINE.']
 
+return'BHAGYASHREE - SMIT2122004 '
+return'BHUSHAN - SMIT2122005 '
+return'CHINMAY - SMIT2122006 '
+
+return ' DEMO FOR THE TOPIC GOOGLE APP ENGINE!'
 
 if __name__ == '__main__':
   
